@@ -1,4 +1,4 @@
-const key = "6def8268c110f55fa424975cfd9cd990 ";
+const key = "API KEY HERE ";
 let button = document.getElementById("enter");
 let button1 = document.getElementById("clear");
 var city1 = document.getElementById("city").value;
