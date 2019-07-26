@@ -23,7 +23,7 @@ function getWeather() {
 
    
     console.log("asd",city);
-    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city},india&appid=6def8268c110f55fa424975cfd9cd990`
+    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city},india&appid=API_KEY `
     fetch(api)
         .then(function(response){            
             console.log("waitinggggg"); 
